@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ubuntu.calibe:
+    container_name: calibre
+    build: .
+    image: elgammalx/ubuntu-calibre:latest
+    volumes:
+      - ./files:/files
